@@ -16,7 +16,7 @@ class Openspace:
         self.number_of_tables = number_of_tables
         self.tables = [Table(4) for _ in range(number_of_tables)]
 
-    def organize(self, names: list):
+    def organize(self, names: list) -> list:
         '''
          Randomly assign people to seats in the different tables 
          (randomly reorganize the order of people in the list).
