@@ -7,6 +7,7 @@ This project is designed to create a program that facilitates seating arrangemen
 The project consists of several Python files organized in a specific structure to achieve the functionality. Below is an overview of each file:
 
 - `main.py`: Main entry point of the program.
+- `repartition.xlsx`: The file in which the result of the repartition is saved in an Excel file.
 - `utils/`: Directory containing utility files required for the project.
   - `file_utils.py`: Utility functions for file handling, such as reading data from an Excel file.
   - `table.py`: Definition of classes representing seats and tables in the open space.
